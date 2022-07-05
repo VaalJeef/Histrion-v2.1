@@ -60,7 +60,7 @@
 
 .img_presentation_theatre {
     width: 50%;
-    background: no-repeat url(/assets/img/hanging_wall_sign_histrion.png) center / cover;
+    background: no-repeat url(assets/img/hanging_wall_sign_histrion.png) center / cover;
 }
 
 .stick {
@@ -110,7 +110,7 @@
 }
 
 .pondi_img {
-    background: no-repeat url(/assets/img/cover-sephorapondi-PhotoRoom.png) center / cover;
+    background: no-repeat url(assets/img/cover-sephorapondi-PhotoRoom.png) center / cover;
     width: 45%;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .noam_img {
-    background: no-repeat url(/assets/img/cover-noammorgensztern-PhotoRoom.png) left / cover;
+    background: no-repeat url(assets/img/cover-noammorgensztern-PhotoRoom.png) left / cover;
     width: 45%;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .michel_img {
-    background: no-repeat url(/assets/img/cover-michelvuillermoz-PhotoRoom.png) right / cover;
+    background: no-repeat url(assets/img/cover-michelvuillermoz-PhotoRoom.png) right / cover;
     width: 45%;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .suliane_img {
-    background: no-repeat url(/assets/img/cover-sulianebrahim-PhotoRoom.png) left / cover;
+    background: no-repeat url(assets/img/cover-sulianebrahim-PhotoRoom.png) left / cover;
     width: 45%;
 }
 
