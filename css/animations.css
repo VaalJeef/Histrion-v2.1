@@ -1,0 +1,108 @@
+/* ANIMATION TEXTE*/
+
+.anim-text {
+    animation: anim-text 5s ease-out both;
+}
+
+@keyframes anim-text {
+    0% {
+        opacity: 0;
+        transform: scale(1.5);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+
+
+/* ANIMATION IMAGE */
+
+.zoom-in {
+    animation: zoom-in 5s ease-out both
+}
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
+
+/* ANIMATION VIDEO */
+
+.anim-vid {
+    animation: anim-vid 2.5s ease-in both;
+}
+
+
+@keyframes anim-vid {
+    0% {
+        transform: scaleX(0);
+        opacity: 1
+    }
+
+    100% {
+        transform: scaleX(1);
+        opacity: 1
+    }
+}
+
+/* APPARITION ELEMENTS */
+
+@keyframes apparition-bas {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes apparition-haut {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes apparition-gauche {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes apparition-droite {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

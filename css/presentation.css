@@ -1,0 +1,153 @@
+.sct_1_presentation {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 100%;
+}
+
+.video_sct_1_presentation {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    background-color: #140103;
+
+}
+
+
+.sct_1_presentation>h1 {
+    text-align: center;
+    color: white;
+    font-size: min(14vw, 14rem);
+    font-family: Helvetica Now Display, Helvetica, sans-serif;
+    padding-top: 20vh;
+}
+
+.btn_low {
+    color: white;
+    background: rgba(255, 255, 255, 0);
+    border: solid 1px white;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.sct_2_theatre {
+    display: flex;
+    height: 100vh;
+}
+
+
+.txt_presentation_theatre {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    padding: 100px;
+    font-size: min(1.5vw, 1.5rem);
+}
+
+.txt_presentation_theatre>h2 {
+    color: inherit;
+    font-family: "Helvetica Now Display";
+}
+
+.txt_presentation_theatre>p {
+    margin-top: 5vh;
+}
+
+.img_presentation_theatre {
+    width: 50%;
+    background: no-repeat url(/assets/img/hanging_wall_sign_histrion.png) center / cover;
+}
+
+.stick {
+    position: sticky;
+    top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    /* border: solid 5px #140103; */
+}
+
+
+.troupe_txt {
+    font-size: min(1.5vw, 1.5rem);
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.name {
+    font-family: 'IM Fell English', serif;
+    font-size: min(3vw, 3rem);
+    color: inherit;
+}
+
+.deco {
+    background: #ec0928;
+    height: 8px;
+    width: 4rem;
+    align-self: center;
+    border-radius: 25% 75% 25% 75% / 45% 55% 45% 55%;
+    margin-bottom: 5vh;
+}
+
+#troupe {
+    background: linear-gradient(#feebee, #FDDDE2);
+    color: inherit;
+    padding: 7rem;
+}
+
+.sct_3_pondi {
+    background: linear-gradient(#FDDDE2, #FCCFD6);
+
+}
+
+.pondi_img {
+    background: no-repeat url(/assets/img/cover-sephorapondi-PhotoRoom.png) center / cover;
+    width: 45%;
+}
+
+.sct_4_noam {
+    background: linear-gradient(#FCCFD6, #FAB3BD);
+
+}
+
+.noam_img {
+    background: no-repeat url(/assets/img/cover-noammorgensztern-PhotoRoom.png) left / cover;
+    width: 45%;
+}
+
+.sct_5_michel {
+    background: linear-gradient(#FAB3BD, #875A60);
+
+}
+
+.sct_5_michel>div>h3 {
+    color: inherit;
+}
+
+.michel_img {
+    background: no-repeat url(/assets/img/cover-michelvuillermoz-PhotoRoom.png) right / cover;
+    width: 45%;
+}
+
+.sct_6_suliane {
+    color: white;
+    background: linear-gradient(#875A60, #140103);
+}
+
+.suliane_img {
+    background: no-repeat url(/assets/img/cover-sulianebrahim-PhotoRoom.png) left / cover;
+    width: 45%;
+}
+
+.sct_6_suliane>div>h3 {
+    color: white;
+}
