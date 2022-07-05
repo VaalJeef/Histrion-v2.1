@@ -25,7 +25,7 @@ h1 {
 }
 
 .img-bg-l {
-    background: #E2D5CF no-repeat url(/assets/img/contact_histrion_2.png) right/contain;
+    background: #E2D5CF no-repeat url(assets/img/contact_histrion_2.png) right/contain;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .img-bg-r {
-    background: #A87E67 no-repeat url(/assets/img/contact_histrion_1.png) left/contain;
+    background: #A87E67 no-repeat url(assets/img/contact_histrion_1.png) left/contain;
     height: 100%;
     width: 100%;
     position: absolute;
